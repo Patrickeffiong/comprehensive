@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(7, 7, 224);
+}
+
+.container {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.context {
+    color: rgb(211, 196, 177);
+    text-decoration: underline;
+}
+
+.text {
+    color: rgb(126, 223, 126);
+}
+
+.item1 {
+    background: white;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.button1 {
+    background-color: black;
+    border: none;
+    height: 20px;
+    width: 100px;
+    color: white;
+
+}
+
+.item2 {
+    background: white;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.button2 {
+    background-color: black;
+    border: none;
+    height: 20px;
+    width: 100px;
+    color: white;
+
+}
+
+.item3 {
+    background: white;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.button3 {
+    background-color: black;
+    border: none;
+    height: 20px;
+    width: 100px;
+    color: white;
+
+}
+
+.main {
+    display: flex;
+    height: 90%;
+}
+
+.button1:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    body {
+        background-color: red;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main {
+        display: block;
+        padding: 20px;
+    }
+
+    .button3,
+    .button2,
+    .button1:hover {
+        background-color: yellow;
+        cursor: pointer;
+    }
+
+    .item1, .item2, .item3 {
+        width: fit-content;
+        margin: 30px;
+        padding: 20px;
+    }
+    
+
+
+}
